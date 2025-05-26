@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.UUID;
 
-public class Employee extends Showroom implements Utility {
+public class Employee extends Showrooms implements Utility {
     String empId;
     String empName;
     String empDepartment;

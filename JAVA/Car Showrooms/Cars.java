@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cars extends Showroom implements Utility{
+public class Cars extends Showrooms implements Utility{
     String carName;
     String carModel;
     String carColor;

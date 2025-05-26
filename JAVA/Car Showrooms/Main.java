@@ -19,7 +19,7 @@ public class Main {
 
     public static void main(String args[]) {
         Scanner mn = new Scanner(System.in);
-        Showroom showroom[] = new Showroom[100];
+        Showrooms showroom[] = new Showrooms[100];
         Employee employee[] = new Employee[500];
         Cars car[] = new Cars[1000];
         int showroomCount = 0, employeeCount = 0, carCount = 0;
@@ -33,7 +33,7 @@ public class Main {
                 switch (choice) {
                     case 1:
                         if(showroomCount < 100){
-                        showroom[showroomCount] = new Showroom();
+                        showroom[showroomCount] = new Showrooms();
                         showroom[showroomCount++].setDetails();
                         System.out.println();
                         System.out.println("1.} ADD NEW SHOWROOM");
